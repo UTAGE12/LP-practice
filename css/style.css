@@ -1,5 +1,4 @@
 .content {
-  width: 1200px;
 }
 
 .page-header {
@@ -228,8 +227,11 @@ ul {
   background-color: #f8f8f8;
   padding: 30px 0;
 }
+
 .blog_top {
-  margin-left: 175px;
+  margin: 15px auto;
+  width: 850px;
+  text-align: left;
 }
 .blog_content {
   display: flex;
@@ -308,7 +310,9 @@ h3 {
   padding: 30px 0;
 }
 .company_top {
-  margin-left: 300px;
+  margin: 15px auto;
+  text-align: left;
+  width: 600px;
 }
 .company_tb {
   width: 600px;
@@ -327,24 +331,27 @@ h3 {
   background-color: #dedede;
   width: 150px;
 }
+
 .recruit {
+  width: 70%;
+  margin: 15px auto;
+}
+
+.recruit_content {
   display: flex;
-  margin-bottom: 10px;
 }
 
 .recruit_box1 {
   position: relative;
-  width: 600px;
 }
 .recruit_img1 {
-  width: 600px;
+  width: 100%;
 }
 .recruit_text1 {
   position: absolute;
-  top: 120px;
-  left: 200px;
-  width: 200px;
-  height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
   font-size: 25px;
@@ -352,17 +359,15 @@ h3 {
 }
 .recruit_box2 {
   position: relative;
-  width: 600px;
 }
 .recruit_img2 {
-  width: 600px;
+  width: 100%;
 }
 .recruit_text2 {
   position: absolute;
-  top: 120px;
-  left: 200px;
-  width: 200px;
-  height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
   font-size: 25px;
